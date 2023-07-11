@@ -1,3 +1,849 @@
 {
-  
-}
+    "status": true,
+    "message": "Record Available",
+    "data": [
+      {
+        "id": 59,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 2,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "Test 2",
+        "secondaryServiceName": "Test 2 En",
+        "primaryLanguageDesc": "Test 2",
+        "secondaryLanguageDesc": "Test 2 En",
+        "allowTimeToBookInMinutes": "25",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_59/1679463938329.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 268,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_59/1679463938329.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_59/1679463938329.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_59/1679463938329.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "subcategory": {
+          "id": 2,
+          "name": {
+            "ar": "صالون حلاقة",
+            "en": "Barbershop"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 87,
+            "price": 45,
+            "primaryLanguageVariationName": "Regular ",
+            "secondaryLanguageVariationName": "Regular ",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "23"
+              }
+            ]
+          },
+          {
+            "id": 88,
+            "price": 50,
+            "primaryLanguageVariationName": "Custom ",
+            "secondaryLanguageVariationName": "Custom ",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "50"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "Saloon",
+        "secondaryServiceName": "Saloon",
+        "primaryLanguageDesc": "Saloon Plus",
+        "secondaryLanguageDesc": "O",
+        "allowTimeToBookInMinutes": "5",
+        "showOn": true,
+        "servicePictures": [
+          
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 86,
+            "price": 885,
+            "primaryLanguageVariationName": "Saloon",
+            "secondaryLanguageVariationName": "Saloon",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "5"
+              },
+              {
+                "key": "Minutes",
+                "value": "8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 56,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 2,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "TestGiftcardService",
+        "secondaryServiceName": "TestGiftcardService",
+        "primaryLanguageDesc": "TestGiftcardService",
+        "secondaryLanguageDesc": "TestGiftcardService",
+        "allowTimeToBookInMinutes": "71",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_56/1672808654591.png",
+            "originalFileName": "verified.png"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 202,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_56/1672808654591.png",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_56/1672808654591.png",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_56/1672808654591.png",
+            "originalFileName": "verified.png"
+          }
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 84,
+            "price": 12,
+            "primaryLanguageVariationName": "Regularplus+",
+            "secondaryLanguageVariationName": "Regularplus+",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "dfger",
+        "secondaryServiceName": "erdfsd",
+        "primaryLanguageDesc": "erere",
+        "secondaryLanguageDesc": "dsfdsf",
+        "allowTimeToBookInMinutes": "56",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_32/1668325060127.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 97,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_32/1668325060127.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_32/1668325060127.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_32/1668325060127.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 32,
+            "price": 3,
+            "primaryLanguageVariationName": "dsff",
+            "secondaryLanguageVariationName": "dsfds",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "Yy",
+        "secondaryServiceName": "Tt1122",
+        "primaryLanguageDesc": "Hh",
+        "secondaryLanguageDesc": "Jj",
+        "allowTimeToBookInMinutes": "60",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668353017820.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668353007308.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668352994390.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668352985127.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 109,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_31/1668353017820.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_31/1668353017820.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668353017820.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 108,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_31/1668353007308.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_31/1668353007308.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668353007308.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 107,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_31/1668352994390.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_31/1668352994390.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668352994390.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 106,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_31/1668352985127.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_31/1668352985127.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_31/1668352985127.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 31,
+            "price": 22,
+            "primaryLanguageVariationName": "Yyyh",
+            "secondaryLanguageVariationName": "Ggg",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 3,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "gf",
+        "secondaryServiceName": "fg",
+        "primaryLanguageDesc": "gf",
+        "secondaryLanguageDesc": "gf",
+        "allowTimeToBookInMinutes": "60",
+        "showOn": true,
+        "servicePictures": [
+          
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          
+        ],
+        "subcategory": {
+          "id": 3,
+          "name": {
+            "ar": "العناية بالجسم",
+            "en": "Bodycare"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 8,
+            "ServiceType": {
+              "name": {
+                "ar": "مقابله في",
+                "en": "Meet At"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 29,
+            "price": 22,
+            "primaryLanguageVariationName": "gf",
+            "secondaryLanguageVariationName": "gf",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "re",
+        "secondaryServiceName": "er",
+        "primaryLanguageDesc": "re",
+        "secondaryLanguageDesc": "er",
+        "allowTimeToBookInMinutes": "60",
+        "showOn": true,
+        "servicePictures": [
+          
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 28,
+            "price": 22,
+            "primaryLanguageVariationName": "re",
+            "secondaryLanguageVariationName": "re",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "qw",
+        "secondaryServiceName": "qw",
+        "primaryLanguageDesc": "qw",
+        "secondaryLanguageDesc": "qw",
+        "allowTimeToBookInMinutes": "60",
+        "showOn": true,
+        "servicePictures": [
+          
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 27,
+            "price": 222,
+            "primaryLanguageVariationName": "wq",
+            "secondaryLanguageVariationName": "qw",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "1"
+              },
+              {
+                "key": "Minutes",
+                "value": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "Service",
+        "secondaryServiceName": "Service listt11",
+        "primaryLanguageDesc": "List",
+        "secondaryLanguageDesc": "Service21",
+        "allowTimeToBookInMinutes": "300",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234362531.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234362163.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361271.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361789.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361404.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360855.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360674.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360530.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360513.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 60,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234362531.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234362531.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234362531.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 59,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234362163.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234362163.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234362163.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 58,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234361271.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234361271.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361271.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 57,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234361789.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234361789.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361789.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 56,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234361404.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234361404.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234361404.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 55,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234360855.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234360855.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360855.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 54,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234360674.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234360674.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360674.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 53,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234360530.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234360530.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360530.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 52,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_9/1668234360513.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_9/1668234360513.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_9/1668234360513.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 2,
+            "ServiceType": {
+              "name": {
+                "ar": "في المتجر",
+                "en": "In Store"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 9,
+            "price": 50,
+            "primaryLanguageVariationName": "Service",
+            "secondaryLanguageVariationName": "List",
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "5"
+              },
+              {
+                "key": "Minutes",
+                "value": "5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "storeId": 1,
+        "categoryId": 1,
+        "subcategoryId": 1,
+        "primaryLanguageId": 1,
+        "secondaryLanguageId": 1,
+        "primaryServiceName": "Image",
+        "secondaryServiceName": "Image112",
+        "primaryLanguageDesc": "Multiple",
+        "secondaryLanguageDesc": "Multiple1",
+        "allowTimeToBookInMinutes": "300",
+        "showOn": true,
+        "servicePictures": [
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_8/1668234290159.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_8/1668234268716.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "category": {
+          "id": 1,
+          "name": {
+            "ar": "مراكز تجميل",
+            "en": "Beauty Centers"
+          }
+        },
+        "Uploads": [
+          {
+            "id": 51,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_8/1668234290159.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_8/1668234290159.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_8/1668234290159.jpeg",
+            "originalFileName": "test.jpg"
+          },
+          {
+            "id": 50,
+            "fileName": "public/HairSaloon/Store/store_1/Service/service_8/1668234268716.jpeg",
+            "s3Name": "public/HairSaloon/Store/store_1/Service/service_8/1668234268716.jpeg",
+            "s3URL": "https://saloonplusdev.s3.eu-central-1.amazonaws.com/public/HairSaloon/Store/store_1/Service/service_8/1668234268716.jpeg",
+            "originalFileName": "test.jpg"
+          }
+        ],
+        "subcategory": {
+          "id": 1,
+          "name": {
+            "ar": "صالون التجميل",
+            "en": "Beauty Saloon"
+          },
+          "parent": 1
+        },
+        "ServiceTypeRelations": [
+          {
+            "serviceTypeId": 3,
+            "ServiceType": {
+              "name": {
+                "ar": "زيارة منزلية",
+                "en": "House Visit"
+              }
+            }
+          }
+        ],
+        "Variations": [
+          {
+            "id": 8,
+            "price": 500,
+            "primaryLanguageVariationName": "Image",
+            "secondaryLanguageVariationName": null,
+            "VariationProperties": [
+              {
+                "key": "Hours",
+                "value": "5"
+              },
+              {
+                "key": "Minutes",
+                "value": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "count": 13
+  }

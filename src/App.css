@@ -26,12 +26,40 @@
   color: #61dafb;
 }
 
-img {
-  border-radius: 8px;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-.item-name {
-  
+
+div {
+  /* border: 2px solid black; */
 }
+
+.thumbnail {
+  background-image: url("https://marketmentors.com/assets/not_available.png");
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.borders {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -41,3 +69,4 @@ img {
     transform: rotate(360deg);
   }
 }
+
